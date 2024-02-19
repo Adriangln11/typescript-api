@@ -7,6 +7,7 @@ import {
   updateTicketService,
   deleteTicketService,
 } from '../services/tickets.service'
+import { PostTicketType } from '../models/tickets.z'
 
 const getTicket = async (req: Request, res: Response) => {
   try {
